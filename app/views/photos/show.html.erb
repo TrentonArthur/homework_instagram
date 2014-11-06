@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12"><h1>Welcome to the details of your photo number <%= @index %></h1></div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+
+      <img src="<%= @chosenPhoto.source %>" width="450">
+
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+
+      <h4><%= @chosenPhoto.caption %></h4>
+    </div>
+  </div>
+  <a href="http://localhost:3000/" button type="button" class="btn btn-primary">Back to Photo Index</button>
+
+</div>
